@@ -14,7 +14,7 @@ An **interactive network graph** of Ludwig Wittgenstein’s *Tractatus Logico-Ph
 
 ## 🌐 Live Demo
 
-👉 **[View the interactive graph](https://USERNAME.github.io/tractatus-graph-visualisation/tractatus_network2.html)**  
+👉 **[View the interactive graph](https://ChloeMYWong.github.io/tractatus-graph-visualisation/tractatus_network2.html)**  
 (*Hosted with GitHub Pages*)
 
 ---
