@@ -46,3 +46,4 @@ You can run the project locally in just a few steps:
 ```bash
 git clone https://github.com/USERNAME/tractatus-graph-visualisation.git
 cd tractatus-graph-visualisation
+# tractatus-graph-visualisation
