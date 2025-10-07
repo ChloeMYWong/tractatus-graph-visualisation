@@ -91,6 +91,18 @@
                  color: #000000;
              }
 
+            /* Limit tooltip width and allow wrapping for long propositions */
+             .vis-tooltip {
+                 max-width: min(90vw, 520px);   /* fit within viewport, max ~520px */
+                 white-space: normal;           /* allow wrapping */
+                 word-break: break-word;        /* break long tokens if needed */
+                 overflow-wrap: anywhere;       /* extra safety */
+                 line-height: 1.35;
+                 max-height: 40vh;              /* avoid massive tooltips */
+                 overflow: auto;                /* scroll if too tall */
+              }
+            
+
              div.outerBorder {
                  position:relative;
                  top:400px;
@@ -115,18 +127,7 @@
 
              
         </style>
-        <style>
-          /* Limit tooltip width and allow wrapping for long propositions */
-          .vis-tooltip {
-            max-width: min(90vw, 520px);   /* fit within viewport, max ~520px */
-            white-space: normal;           /* allow wrapping */
-            word-break: break-word;        /* break long tokens if needed */
-            overflow-wrap: anywhere;       /* extra safety */
-            line-height: 1.35;
-            max-height: 40vh;              /* avoid massive tooltips */
-            overflow: auto;                /* scroll if too tall */
-          }
-        </style>
+
     </head>
 
 
